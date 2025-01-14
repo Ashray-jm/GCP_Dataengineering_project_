@@ -4,7 +4,7 @@ from airflow.operators.bash_operator import BashOperator
 from airflow.utils.dates import days_ago
 
 default_args = {
-    'owner': 'airflow',
+    'owner': "airflow",
     'start_date': datetime(2023, 12, 18),
     'depends_on_past': False,
     'email': ['vishal.bulbule@techtrapture.com'],
